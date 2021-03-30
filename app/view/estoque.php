@@ -2,7 +2,7 @@
 
 <div class="container">
 
-<h1>index</h1>
+<h1>Estoque</h1>
 
 </div>
 
