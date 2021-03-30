@@ -5,10 +5,10 @@
     <!-- Button trigger modal -->
     <div class="text-left">
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Cadastro Produtos
+            Cadastro Estoque
         </button>
     </div>
-<br>
+    <br>
     <table class="table">
         <thead>
             <tr>
@@ -44,18 +44,31 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog  modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Cadastro Produto</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Água:</label>
+                            <input type="text" class="form-control" id="agua-name" placeholder="Litro">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Álcool:</label>
+                            <input type="text" class="form-control" id="alcool-name" placeholder="Litro">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Fragrância:</label>
+                            <input type="text" class="form-control" id="fragrancia-name" placeholder="Litro">
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancela</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
                 </div>
             </div>
         </div>
